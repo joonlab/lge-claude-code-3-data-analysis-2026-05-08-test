@@ -1,0 +1,13 @@
+# Output 결과물 (수강생/강사가 Sandbox에서 생성, .gitkeep만 추적)
+output/*
+!output/.gitkeep
+
+# OS / 에디터 부산물
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Claude Code Sandbox 캐시 (있을 경우)
+.cache/
